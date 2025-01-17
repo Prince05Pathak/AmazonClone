@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box; /*  */
+    
+    
+}
+
+.navbar {
+    height: 60px;
+    background-color:#131A22;
+    justify-content: space-evenly;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+  
+}
+.border:hover {
+    border: 1px solid white;
+
+}
+/* Box 2 */
+.add-first {
+    color: grey;
+    font-size: 0.85rem; 
+    margin-left: 15px;
+}
+.add-sec {
+    color: white;
+    margin-left: 3px;
+    font-weight: bold;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Box 3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FEBD69;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover{
+    border: 2px solid #FEBD69 ;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #131A22;
+    
+}
+
+/* Box 4 */
+.lang{
+    display: flex;
+}
+.lang-icon{
+    font-size: 1.8rem;
+}
+.lang-select{
+    border: none;
+    background-color: #131A22;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Box 5 */
+
+span{
+        font-size: 0.7rem;
+}
+.Accounts-select{
+    border: none;
+    background-color: #131A22;
+    color: white;
+    font-weight: 700;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: flex;
+}
+
+/* Box 6 */
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* Panel */
+
+.panel {
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opt p{
+    display: inline;
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+.panel-opt{
+    width: 70%;
+    font-size: 0.85rem;
+}
+img {
+    width:50%;
+    text-align: right;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background-image: 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #d3d3d3 100%),
+        url("RepublicDay.jpg");
+    height: 500px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: #131A22;
+    font-size: 0.85rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 25px;
+    border-radius: 5rem;
+   
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+/* Shop Section */
+.shop-section{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    background-color: #d3d3d3 ;
+}
+.box {
+    
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    padding: 20px 0px 15px ;
+    margin-top: 15px;
+    
+}
+
+
+.box-image {
+    
+    background-size: cover; /* Ensures the image fits properly */
+    background-repeat: no-repeat; /* Avoids repetition */
+    background-position: center; /* Centers the image */
+    height: 300px; /* Adjust the height as needed */
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.box-content {
+    
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #232F3E;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-size: 1rem;
+   
+}
